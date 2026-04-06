@@ -7,7 +7,7 @@
   <title>The info</title>
   <style>
     body{
-      background : url(./☁️.jpg);
+      background : url(./\ -8.jpg);
       background-size:cover;
       background-position: center;
     }
@@ -21,12 +21,11 @@
        font-family: 'Arial', sans-serif;
     }
     .intropic{
-      width:90px;
-      height:90px;
-      border-radius: 50%;
-      margin-right: 20px;
-      object-fit: cover;
-
+      width:30%;
+      height:250px;
+      float:right;
+      object-fit:cover;
+      border-radius:10px;
     }
     .profilepic{
       width:100px;
@@ -46,11 +45,9 @@
       font-weight:bold;
     }
     .container2{
-      background-color:rgb(152, 167, 187 , 0.5);
-      border-radius:10px;
-      color:#ffffff;
-      padding-bottom:70px;
       
+      border-radius:10px;
+      color:#ffffff; 
     }
     .webpic{
       float:left;
@@ -58,7 +55,6 @@
       height:250px;
       object-fit:cover;
       border-radius:10px;
-      margin: 15px 30px 10px 15px;
     }
   .buttons{
     display: flex;
@@ -67,12 +63,12 @@
     gap:10px;
   }
   .btn{
-    background-color:rgb(44, 47, 51 , 0.5);
+    background-color:rgb(152, 167, 187 , 0.5);
     color:rgb(211, 207, 207);
     border-radius: 30px;
   }
   .footer{
-    background-color: rgb(44, 47, 51, 0.5);
+    
     margin-top:100px;
     text-align: center;
     color:rgb(233, 227, 227);
@@ -84,6 +80,11 @@
     flex-wrap: wrap;
   }
   @media (max-width:768px){
+    body{
+      background: url(./\ -16.jpg);
+      background-size:cover;
+      background-position:center;
+    }
     .header{
       display: flex;
       flex-direction: column;
@@ -109,6 +110,10 @@
       height:300px;
       margin: 15px 0px 10px 0px;
     } 
+    .intropic{
+      width:100%;
+      height:300px;
+    }
   }
   
 
@@ -148,9 +153,9 @@
     <hr>
     <P class="intro">I’m passionate about using technology to make a meaningful impact. My approach is simple: understand the problem deeply, design smart solutions, and build them with clarity and precision. I enjoy working on AI-driven projects like phishing detection, fall-detection systems, and secure authentication models because they combine innovation with real usefulness. Along with technical skills, I value communication, teamwork, and consistency — traits that help me grow both personally and professionally. As I continue my journey, I aim to develop more intelligent systems, contribute to impactful projects, and keep pushing myself to learn something new every day.</P>
   </div>
-<img src="./ .jpg" alt="intro" class="webpic mb-4 sm-12">
+  <hr>
 <div class="container2 mb-4">
-    
+   <img src="./ .jpg" alt="intro" class="webpic mb-4 sm-12"> 
     <ul class="intro contents-box2">
       <h2><u>Skills:</u></h2>
      	<li><span class="sidenames">Web Development:</span>Web Development: HTML, CSS, JavaScript, responsive design</li>
@@ -161,13 +166,27 @@
 <li><span class="sidenames">Tools:</span> VS Code, Jupyter Notebook, GitHub</li>
     </ul>
 </div>
+
+<hr>
+
+<div class="container2 mt-5">
+    <img src="./10 tips for new GitHub projects.jpg" alt="intro" class="intropic  mb-4 sm-12"> 
+      <ul class="intro contents-box2">
+        <h2><u>Projects:</u></h2>
+      	<li><span class="sidenames">AI-Based Phishing Detection System:</span> Developed a machine learning model to identify and block phishing websites, improving online security.</li>
+    <li><span class="sidenames">Fall Detection System:</span> Created an AI-driven system that detects falls in real-time, providing timely alerts for elderly care.</li>
+    <li><span class="sidenames">Secure Authentication Model:</span> Built a secure authentication system using multi-factor authentication and encryption techniques.</li>
+    <li><span class="sidenames">Personal Portfolio Website:</span> Designed and developed a responsive personal portfolio website to showcase projects and skills.</li>
+      </ul>
+</div>
 <div class="buttons">
 <a href="./index2.html"><button class="btn" >My To-Do Lists</button></a> 
 <a href="./index1.html"><button class="btn" >Products</button></a>
 
 </div>
 <div class="footer">
-  <h3> THANK YOU FOR VISTING MY PAGE!</h3>
+  <h5>made with ❤️ by Vamsi.k</h5>
+  <h6>copyright @ 2026</h6>
 </div>
 
 <script src="index.js" ></script>
